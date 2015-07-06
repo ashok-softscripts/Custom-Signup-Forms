@@ -1,0 +1,42 @@
+#wbsf_entry_form {
+	position: relative;
+}
+
+#wbsf_entry_form h4.wbsf_form_fieldset_title {
+	margin-top: 20px;
+}
+
+#wbsf_entry_form .children_field{
+	position: relative;
+}
+
+label.control-label em {
+	color: #C00;
+	margin-left: 5px;
+}
+
+.wbsf-remove {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
+
+input.wbsf-not-valid, textarea.wbsf-not-valid, select.wbsf-not-valid {
+	-webkit-box-shadow:0px 0px 6px #d73333;
+	-moz-box-shadow:0px 0px 6px #d73333;
+	-ms-box-shadow:0px 0px 6px #d73333;
+	-o-box-shadow:0px 0px 6px #d73333;
+	box-shadow:0px 0px 6px #d73333;
+}
